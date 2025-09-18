@@ -5,6 +5,7 @@ public class HelloGit {
 		System.out.println("你好！Git！");
 		System.out.println("第二行來了");
 		System.out.println("new branch~");
+		System.out.println("第四行");
 	}
 
 }
