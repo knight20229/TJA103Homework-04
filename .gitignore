@@ -1,0 +1,6 @@
+#這是註解
+
+.settings/
+bin/
+.classpath
+.project
