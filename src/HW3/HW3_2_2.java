@@ -9,7 +9,7 @@ public class HW3_2_2 {
 			int i = 0;
 			int a = 0, b = 100;
 			answer = (int)(Math.random() * 101);
-			System.out.println("答案是：" + answer);
+//			System.out.println("答案是：" + answer);
 			System.out.println("請輸入一個整數(0~100)：");
 			if (sc.hasNextInt()) {
 				i = sc.nextInt();			

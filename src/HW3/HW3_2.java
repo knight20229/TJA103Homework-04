@@ -9,10 +9,12 @@ public class HW3_2 {
 			int i = 0;
 			answer = (int)(Math.random() * 10);
 			System.out.println("答案是：" + answer);
+			// 以下可做成方法
 			System.out.println("請輸入一個整數(0~9)：");
 			if (sc.hasNextInt()) {
 				i = sc.nextInt();			
 			}
+			// 以上可做成方法
 			while (true) {
 				if (i == answer) {
 					System.out.println("恭喜答對！遊戲結束。");
@@ -23,7 +25,7 @@ public class HW3_2 {
 					if (sc.hasNextInt()) {
 						i = sc.nextInt();						
 					};	
-				}
+				} 
 			}
 		}			
 	}
