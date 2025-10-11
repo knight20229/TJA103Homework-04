@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class HW4_6 {
 	public static void main(String[] args) {
 		// 二維陣列：計算出每個同學考最高分的次數
-		// 陣列複製後，排列新陣列，抓最大值，
-		// 找出原陣列每列中對應到的最大值，第幾格則為哪位(i-1)
-		// count 1~8號，print每個次數
+
 		int[][] test = {
 				{10, 35, 40, 100, 90, 85, 75, 70},
 				{37, 75, 77, 89, 64, 75, 70, 95},
